@@ -23,9 +23,8 @@
 
     
     Graph without NA-Values:
+   ![Graph_Without_NA-Values](https://user-images.githubusercontent.com/90651908/216889980-f483be33-68fd-4eeb-92b7-cd874ae7b190.jpg)
  
-
-
 
 ## Pattern recognition: Establish correlation between different features in data like Gender, Smoke status.
 
