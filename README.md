@@ -17,10 +17,14 @@
 
 ## Data Cleaning
     Removal of 'na' or missing values
-    before:
-    ![image](https://user-images.githubusercontent.com/90651908/216784876-835543ab-a354-4384-9b5b-190534bf9b6a.png)
-    after:
-    ![image](https://user-images.githubusercontent.com/90651908/216784901-1bcb23c3-7050-4d31-b6ca-54e020a5d02e.png)
+    Graph with NA-values:
+    
+   ![Graph_With_NA-Values](https://user-images.githubusercontent.com/90651908/216889070-a4e4525a-039b-4125-9212-d6c9859fcf69.jpg)
+
+    
+    Graph without NA-Values:
+   ![Graph_Without_NA-Values](https://user-images.githubusercontent.com/90651908/216889980-f483be33-68fd-4eeb-92b7-cd874ae7b190.jpg)
+ 
 
 ## Pattern recognition: Establish correlation between different features in data like Gender, Smoke status.
 
