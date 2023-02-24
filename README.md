@@ -1,51 +1,46 @@
+## Stroke Prediction Machine Learning Project
+This is a machine learning project to predict whether a person is likely to have a stroke or not based on certain features like age, gender, smoking status, etc. Four different algorithms have been used to create the models - Naive Bayes, Decision Tree, Random Forest, and MLP from Neural Network and PCA.
 
-# Stroke_Prediction
-## Stroke Prediction model using PCA.
-### We build different classification models to predict if the patient will have a Stroke based on other health features.
-### We will use PCA (Principal component analysis) to reduce dimensionality of data and observe the impact on accuracy of different models we have build over the provided data.
+## Dataset
+The dataset used for this project is the Stroke Prediction Dataset from Kaggle. It contains information about patients and whether they have had a stroke or not. The dataset has 5110 rows and 12 columns.
 
-## Libraries used:
-    numpy
+## Requirements
+This project requires Python 3.x and the following libraries:
+
     pandas
+    numpy
+    scikit-learn
     matplotlib
     seaborn
-    missingno
-    sklearn
-## Data Reading
-    Training data matrix: (43400, 12)
-    Test data matrix: (18601, 11)
+    keras
 
-## Data Cleaning
-    Removal of 'na' or missing values
-    Graph with NA-values:
-    
-   ![Graph_With_NA-Values](https://user-images.githubusercontent.com/90651908/216889070-a4e4525a-039b-4125-9212-d6c9859fcf69.jpg)
+## You can install the required libraries using pip:
 
-    
-    Graph without NA-Values:
-   ![Graph_Without_NA-Values](https://user-images.githubusercontent.com/90651908/216889980-f483be33-68fd-4eeb-92b7-cd874ae7b190.jpg)
- 
+    pip install pandas numpy scikit-learn matplotlib seaborn keras
 
-## Pattern recognition: Establish correlation between different features in data like Gender, Smoke status.
+## Files: The project consists of the following files:
 
-## Label encoder: To convert different data types present in given train and test data into integer format. 
+    stroke_prediction.ipynb: Jupyter notebook containing the implementation of 
+        Naive Bayes algorithm
+        Decision Tree algorithm
+        Random Forest algorithm
+        MLP from Neural Network 
+        PCA algorithm for dimensionality reduction
+        
+    stroke_data.csv: CSV file containing the dataset
 
-## Data split:
-  Train_data: 70%
-  Test_data: 30%
- 
-## Classification models:
-    1. Naive Bayes
-    2. Decision tree
-    3. Random forest
-    4. MLP from Neural Network
-    
- ## Calculate Cross validation score for all models to compare accuracies.
- 
- ## Applying principal component analysis to reduce dimensionalty of features.
-    Run all models with reduced dimensions data
-    Observe impact of accuracy of all models
-    
- ### Conculsion
-    
-      Based on model performances on data after reducing feature dimensions by applying PCA, Random forest model registers a significant amount of increment of accuracy.
+Usage
+
+    To run the project, first, download the dataset and save it as stroke_data.csv. Then open the Jupyter notebooks and run the cells. 
+    The notebooks contain explanations and code for data preprocessing, model building, and evaluation.
+
+Results
+
+    The results of the models are compared using accuracy, precision, recall, and F1-score. 
+    The best-performing model is Random Forest with an accuracy of 0.9539 and an F1-score of 0.486.
+
+Conclusion
+
+    In this project, we have seen how to use different machine learning algorithms to predict the likelihood of a person having a stroke. 
+    We have also seen how to evaluate the models using various metrics. 
+    Random Forest has shown the best results in this case, but other algorithms can also be used depending on the specific requirements of the problem.
