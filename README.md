@@ -27,7 +27,8 @@ This project requires Python 3.x and the following libraries:
         MLP from Neural Network 
         PCA algorithm for dimensionality reduction
         
-    stroke_data.csv: CSV file containing the dataset
+    test_2v.csv: CSV file containing the test dataset after split.
+    train_2v.csv: CSV file containing the test dataset after split.
 
 Usage
 
